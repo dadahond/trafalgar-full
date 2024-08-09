@@ -1,0 +1,422 @@
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/mulish-v13-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/mulish-v13-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/mulish-v13-latin-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "Mulish";
+  font-weight: 300;
+}
+
+nav a {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.navigation img {
+  width: 160px;
+  height: 41px;
+  cursor: pointer;
+}
+
+.header-ul {
+  list-style: none;
+  text-transform: capitalize;
+  display: flex;
+  column-gap: 40px;
+  opacity: 50%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1534;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 135px;
+}
+
+.head-left {
+  width: 445px;
+  height: 338px;
+}
+
+.head img {
+  width: 693px;
+  height: 598px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 84px;
+}
+
+.head-left h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.head-left p {
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.button {
+  background-color: #458ff6;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 55px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+  opacity: 100%;
+}
+
+.main-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 131px;
+}
+
+.line {
+  width: 56px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.main-up h2 {
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.main-up p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  width: 952px;
+}
+
+.main-cards {
+  background-image: url("../images/bg\ element.png");
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 78px;
+}
+
+.card {
+  width: 350px;
+  height: 354px;
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 37px;
+  padding-top: 54px;
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.14);
+}
+
+.card img {
+  width: 92px;
+  height: 90px;
+}
+
+.card h3 {
+  font-size: 24px;
+  line-height: 56px;
+  color: black;
+}
+
+.card p {
+  width: 261px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+.more {
+  border: 1px solid #458ff6;
+  width: 200px;
+  height: 60px;
+  color: #458ff6;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.healthcare-providers,
+.download-our {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 162px;
+}
+
+.healthcare-providers-right,
+.download-our-left {
+  width: 450px;
+}
+
+.healthcare-providers-right p,
+.download-our-left p {
+  color: #7d7987;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.healthcare-providers-right h2,
+.download-our-left h2 {
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.customer-say-box {
+  background-image: url("../images/Rectangle\ 13.png");
+  margin-top: 269px;
+  background-repeat: no-repeat;
+  padding: 61px 0 92px 0;
+}
+
+.customer-say-box-up,
+.customer-say-box-left-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer-say-box-left-name h3 {
+  font-size: 22px;
+}
+
+.customer-say-box-left-name span {
+  font-size: 18px;
+}
+
+.customer-say-box-left {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.customer-say-box p {
+  width: 420px;
+}
+
+.customer-say-box-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customer-say-box-center p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.customer-say-box-left img {
+  width: 133px;
+  height: 133px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  justify-content: center;
+  margin-top: 39px;
+}
+
+.customer-say-main {
+  width: 1220px;
+  height: 512px;
+  color: white;
+}
+
+.customer-say-box-up h2 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.customer-say-box-up .line {
+  border: 2px solid white;
+}
+
+.latest-articles-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-articles-up h2 {
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.latest-articles-cards img {
+  width: 350px;
+  height: 240px;
+}
+
+.latest-articles-cards h3 {
+  width: 251px;
+  font-size: 21px;
+  line-height: 32px;
+  padding-left: 33px;
+}
+
+.latest-articles-cards p {
+  font-size: 21px;
+  line-height: 32px;
+  width: 266px;
+  padding-left: 33px;
+}
+
+.read {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding-left: 33px;
+}
+
+.read img {
+  width: 14px;
+  height: 9px;
+}
+
+.read span {
+  color: #4089ed;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.latest-articles-cards {
+  display: flex;
+  column-gap: 34px;
+  padding-top: 79px;
+}
+
+.trafalgar {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.trafalgar span {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #5b9bf3;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 201px;
+  background-image: url("../images/footer-bg.png");
+  color: white;
+}
+
+.trafalgar p {
+  font-size: 18px;
+  line-height: 28px;
+  width: 391px;
+}
+
+.trafalgar h3 {
+  font-size: 24px;
+}
+
+.footer-left span {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer-left p {
+  width: 391px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list .crh {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.footer-list li a {
+  font-size: 18px;
+  line-height: 38px;
+  color: white;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.footer-right {
+  display: flex;
+  column-gap: 80px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
